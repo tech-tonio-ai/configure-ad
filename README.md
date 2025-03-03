@@ -34,7 +34,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://i.imgur.com/AkByKnY.png" alt="Image 1" width="45%"/>
   <img src="https://i.imgur.com/vS2hGNe.png" alt="Image 2" width="45%"/>
 </p>
-- Log into the VM and **disable the Windows Firewall** (for testing connectivity).
+- Log into the VM dc-1 and **disable the Windows Firewall** (for testing connectivity).
 
 ---
 
@@ -45,7 +45,14 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - **Username:** `labuser`
 - **Password:** `Cyberlab123!`
 - Attach it to the **same region and Virtual Network** as `DC-1`.
+<p align="center">
+<img src="https://i.imgur.com/cBQdeE3.png" alt="client-1"/>
+</p>
 - After VM is created, set `Client-1`’s **DNS settings** to `DC-1`’s **Private IP address**.
+<p align="center">
+  <img src="https://i.imgur.com/AkByKnY.png" alt="Image 1" width="45%"/>
+  <img src="https://i.imgur.com/EdqWFQs.png" alt="Image 2" width="45%"/>
+</p>
 - From the Azure Portal, **restart** `Client-1`.
 
 ## Verify Connectivity
