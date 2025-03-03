@@ -57,8 +57,11 @@ This tutorial outlines the implementation of on-premises Active Directory within
 2. Attempt to **ping** `DC-1`’s private IP address.
 3. Ensure the **ping succeeded**.
 4. From `Client-1`, open **PowerShell** and run:
-   ```powershell
+   ```cmd
    ipconfig /all
    ```
 5. The output for the **DNS settings** should show `DC-1`’s private IP Address.
-
+<p align="center">
+  <img src="https://i.imgur.com/UkdxC5J.png" alt="Image 1" width="45%"/>
+  <img src="https://i.imgur.com/Q5VQTdn.png" alt="Image 2" width="45%"/>
+</p>
