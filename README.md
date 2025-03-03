@@ -16,7 +16,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ## Create a Virtual Network and Subnet
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="create virtual network"/>
+  <img src="https://i.imgur.com/5HyCRQ5.png" alt="Image 1" width="45%"/>
+  <img src="https://i.imgur.com/UhpWcQr.png" alt="Image 2" width="45%"/>
 </p>
 
 
