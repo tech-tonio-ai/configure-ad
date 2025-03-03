@@ -56,7 +56,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 1. **Login** to `Client-1`.
 2. Attempt to **ping** `DC-1`’s private IP address.
 3. Ensure the **ping succeeded**.
-4. From `Client-1`, open **PowerShell** and run:
+4. From `Client-1`, open **CMD** and run:
    ```cmd
    ipconfig /all
    ```
