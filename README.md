@@ -10,7 +10,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ## Create a Resource Group
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="setup resource group"/>
+<img src="https://i.imgur.com/5vpfAZN.png" alt="setup resource group"/>
 </p>
 
 
