@@ -25,7 +25,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - **VM Name:** `DC-1`
 - **Username:** `labuser`
 - **Password:** `Cyberlab123!`
+<p align="center">
+  <img src="https://i.imgur.com/717dY3o.png" alt="Image 1" width="45%"/>
+  <img src="https://i.imgur.com/pqUTA4B.png" alt="Image 2" width="45%"/>
+</p>
 - After VM is created, set the Domain Controller’s NIC Private IP address to be **static**.
+<p align="center">
+  <img src="https://i.imgur.com/AkByKnY.png" alt="Image 1" width="45%"/>
+  <img src="https://i.imgur.com/vS2hGNe.png" alt="Image 2" width="45%"/>
+</p>
 - Log into the VM and **disable the Windows Firewall** (for testing connectivity).
 
 ---
