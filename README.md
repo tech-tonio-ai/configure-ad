@@ -67,3 +67,6 @@ This tutorial outlines the implementation of on-premises Active Directory within
   <img src="https://i.imgur.com/UkdxC5J.png" alt="Image 1" width="45%"/>
   <img src="https://i.imgur.com/Q5VQTdn.png" alt="Image 2" width="45%"/>
 </p>
+--
+
+[NEXT: AZURE ADMIN and USER MANAGEMENT -->](https://github.com/tech-tonio-ai/active-directory-admin-and-user-mngmnt)
