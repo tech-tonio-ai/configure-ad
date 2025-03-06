@@ -6,6 +6,28 @@
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+<h2>Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines/Compute)
+- Remote Desktop
+- Active Directory Domain Services
+- PowerShell
+
+<h2>Operating Systems Used </h2>
+
+- Windows Server 2022
+- Windows 10 (21H2)
+
+<h2>High-Level Deployment and Configuration Steps</h2>
+
+- Step 1 : Setup Domain Controller in Azure
+- Step 2 : Create a Virtual Network and Subnet
+- Step 3 : Create the Domain Controller VM (Windows Server 2022)
+- Step 4 : Setup Client-1 in Azure
+- Step 5 : Verify Connectivity
+- Step 6: 
+
+<h2>Deployment and Configuration Steps</h2>
 
 
 # Setup Domain Controller in Azure
