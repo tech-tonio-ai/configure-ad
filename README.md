@@ -11,7 +11,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
+- CMD/PowerShell
 
 <h2>Operating Systems Used </h2>
 
@@ -21,31 +21,32 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1 : Setup Domain Controller in Azure
+    - Create a Resource Group
+    
 - Step 2 : Create a Virtual Network and Subnet
 - Step 3 : Create the Domain Controller VM (Windows Server 2022)
 - Step 4 : Setup Client-1 in Azure
 - Step 5 : Verify Connectivity
-- Step 6: 
 
 <h2>Deployment and Configuration Steps</h2>
 
 
-# Setup Domain Controller in Azure
+### 1.Setup Domain Controller in Azure
 
-## Create a Resource Group
+#### Create a Resource Group
 <p align="center">
 <img src="https://i.imgur.com/5vpfAZN.png" alt="setup resource group"/>
 </p>
 
 
-## Create a Virtual Network and Subnet
+### 2.Create a Virtual Network and Subnet
 <p align="center">
   <img src="https://i.imgur.com/5HyCRQ5.png" alt="Image 1" width="45%"/>
   <img src="https://i.imgur.com/UhpWcQr.png" alt="Image 2" width="45%"/>
 </p>
 
 
-## Create the Domain Controller VM (Windows Server 2022)
+### 3.Create the Domain Controller VM (Windows Server 2022)
 - **VM Name:** `DC-1`
 - **Username:** `labuser`
 - **Password:** `Cyberlab123!`
@@ -57,11 +58,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Log into the VM dc-1 and **disable the Windows Firewall** (for testing connectivity).
 
----
 
-# Setup Client-1 in Azure
+### 4.Setup Client-1 in Azure
 
-## Create the Client VM (Windows 10)
+#### Create the Client VM (Windows 10)
 - **VM Name:** `Client-1`
 - **Username:** `labuser`
 - **Password:** `Cyberlab123!`
@@ -76,7 +76,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 </p>
 - From the Azure Portal, **restart** `Client-1`.
 
-## Verify Connectivity
+### 5.Verify Connectivity
 1. **Login** to `Client-1`.
 2. Attempt to **ping** `DC-1`’s private IP address.
 3. Ensure the **ping succeeded**.
