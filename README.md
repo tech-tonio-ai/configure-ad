@@ -11,7 +11,6 @@ This guide covers the deployment of an on-premises-style Active Directory enviro
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- CMD/PowerShell
 
 <h2>Operating Systems Used </h2>
 
