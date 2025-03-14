@@ -124,7 +124,7 @@ Step 6 : Install Active Directory
 
 - Restart and then log back into DC-1 as user: `mydomain.com\labuser`.
 <p align="center">
-  <img src="https://i.imgur.com/TuI71lr.png" alt="Image 1" width="45%"/>  
+  <img src="https://i.imgur.com/d98Ffyn.png" alt="Image 1" width="45%"/>  
 </p>
 
 [NEXT: AZURE ADMIN and USER MANAGEMENT -->](https://github.com/tech-tonio-ai/active-directory-admin-and-user-mngmnt)
