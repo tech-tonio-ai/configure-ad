@@ -56,7 +56,15 @@ This guide covers the deployment of an on-premises-style Active Directory enviro
   <img src="https://i.imgur.com/pqUTA4B.png" width="30%" />  
 </p>
 
-- Log into the VM dc-1 and **disable the Windows Firewall** (for testing connectivity).
+- Log into the VM dc-1 
+<p align="center">
+<img src="https://i.imgur.com/8P3vyaB.png" alt="dc-1"/>
+</p>
+ <h3>Disable the Windows Firewall(for testing connectivity).</h3>
+<p align="center">
+  <img src="https://i.imgur.com/qOJQxva.png" width="45%" />
+  <img src="https://i.imgur.com/kBvK0VP.png" width="33%" />
+</p>
 
 
 ### 4.Setup Client-1 in Azure
