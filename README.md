@@ -85,18 +85,32 @@ This guide covers the deployment of an on-premises-style Active Directory enviro
 - From the Azure Portal, **restart** `Client-1`.
 
 ### 5.Verify Connectivity
-1. **Login** to `Client-1`.
-2. Attempt to **ping** `DC-1`’s private IP address.
-3. Ensure the **ping succeeded**.
-4. From `Client-1`, open **CMD** and run:
+- **Login** to `Client-1`.
+- Attempt to **ping** `DC-1`’s private IP address.
+- Ensure the **ping succeeded**.
+- From `Client-1`, open **CMD** and run:
    ```cmd
    ipconfig /all
    ```
-5. The output for the **DNS settings** should show `DC-1`’s private IP Address.
+- The output for the **DNS settings** should show `DC-1`’s private IP Address.
 <p align="center">
   <img src="https://i.imgur.com/UkdxC5J.png" alt="Image 1" width="45%"/>
   <img src="https://i.imgur.com/Q5VQTdn.png" alt="Image 2" width="45%"/>
 </p>
---
+
+### 6. InstallActive Directory Admin and User Management 
+   
+- Login to DC-1 and install Active Directory Domain Services
+<p align="center">
+  <img src="https://i.imgur.com/SWXkR0v.png" alt="Image 1" width="45%"/>  
+</p>
+- Promote as a DC: Setup a new forest as `mydomain.com` (can be anything, just remember what it is).
+<p align="center">
+  <img src="https://i.imgur.com/FUkZou6.png" alt="Image 1" width="45%"/>  
+</p>
+- Restart and then log back into DC-1 as user: `mydomain.com\labuser`.
+<p align="center">
+  <img src="https://i.imgur.com/TuI71lr.png" alt="Image 1" width="45%"/>  
+</p>
 
 [NEXT: AZURE ADMIN and USER MANAGEMENT -->](https://github.com/tech-tonio-ai/active-directory-admin-and-user-mngmnt)
