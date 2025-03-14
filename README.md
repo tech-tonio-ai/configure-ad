@@ -20,13 +20,19 @@ This guide covers the deployment of an on-premises-style Active Directory enviro
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1 : Setup Domain Controller in Azure
+Step 1 : Setup Domain Controller in Azure
     - Create a Resource Group
     
-- Step 2 : Create a Virtual Network and Subnet
-- Step 3 : Create the Domain Controller VM (Windows Server 2022)
-- Step 4 : Setup Client-1 in Azure
-- Step 5 : Verify Connectivity
+Step 2 : Create a Virtual Network and Subnet
+
+Step 3 : Create the Domain Controller VM (Windows Server 2022)
+
+Step 4 : Setup Client-1 in Azure
+
+Step 5 : Verify Connectivity
+
+Step 6 : Install Active Directory 
+
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -104,10 +110,18 @@ This guide covers the deployment of an on-premises-style Active Directory enviro
 <p align="center">
   <img src="https://i.imgur.com/SWXkR0v.png" alt="Image 1" width="45%"/>  
 </p>
-- Promote as a DC: Setup a new forest as `mydomain.com` (can be anything, just remember what it is).
+- Promote as a DC
 <p align="center">
   <img src="https://i.imgur.com/FUkZou6.png" alt="Image 1" width="45%"/>  
 </p>
+
+- Setup a new forest as `mydomain.com` and set a password:
+<p align="center">
+  <img src="https://i.imgur.com/hO5L8NY.png" width="30%" />
+  <img src="https://i.imgur.com/bdfLJJh.png" width="30%" />
+  <img src="https://i.imgur.com/vyu3m4F.png" width="30%" />  
+</p>
+
 - Restart and then log back into DC-1 as user: `mydomain.com\labuser`.
 <p align="center">
   <img src="https://i.imgur.com/TuI71lr.png" alt="Image 1" width="45%"/>  
